@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+  body{background-color: aqua;
+  background-color: lightgoldenrodyellow;
+  background-color: teal;
+/* hexidecimal */
+background-color: rgb(100, 0, 200) /* red */
+}
+
+section {background-color: white;
+
+  background-color: rgba(255, 255, 255, 0.8);}
+
+
+
+  h1 {color: yellow;
+  font-family: 'Lato';
+font-weight: 700}
+h3 {color: green;}
+h3 em{font-family: sans-serif;}
+
+
+
+p {background-color: red}
+li {font-size: 20px;
+list-style: circle;}
+ul li {list-style: none;}
+
+#centerName{text-align: center}
+.bolder{font-weight: bolder}
+
+a{color: green;
+text-decoration: none}
+
+a:visited{color: aqua}
+
+a:hover{background-color: red;
+font-style: italic;}
