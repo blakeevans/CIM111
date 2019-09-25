@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Turret+Road&display=swap');
+
+a{
+  color: green;
+text-decoration: none}
+
+a:hover {background-color: blue;
+font-style: italic}
+
+
+h1 {
+  font-family: 'Turret Road', cursive;
+  /* font-weight: light; */
+}
+
+p {background-color: red}
+h2 {background-color: green}
+
+#centername1{text-align: center}
+#centername2{text-align: center}
+#centername3{text-align: center}
+#centername4{text-align: center}
+#centername5{text-align: center}
+
+.bolder {font-weight: bolder}
+
+.oblique {font-style: oblique;}
+
+.float {float: left;}
