@@ -1,0 +1,94 @@
+/* homework css */
+header {background-color: Antiquewhite;
+  width: 1060px;
+  height:150px;
+}
+
+header h1{
+  text-align: center
+}
+main{
+  background-color: steelblue;
+  width: 1000px;
+  height: auto;
+  padding: 20px 20px 20px 20px;
+  margin: 0px;
+
+border-width: 10px 10px 10px 10px;
+border-style:groove;
+border-color: black;
+}
+footer{
+  background-color: green;
+  width: 1060px;
+  height: auto;
+}
+nav{background-color: dimgray;
+width: 600px;
+margin: 0 auto;
+}
+
+nav ul{
+
+}
+
+nav ul li{
+list-style: none;
+display: inline-block;
+margin-right: 20px;
+padding: 5px
+}
+
+nav ul li a{
+color: white;
+text-decoration: none;
+}
+
+nav ul li:hover{
+  background-color: grey
+}
+#grid1 p {
+  padding-top: 115px;
+}
+#grid1{
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 60px 300px;
+  grid-template-columns: 390px 390px;
+  grid-column-gap: 20px;
+}
+
+#grid2{
+  width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 60px 200px 100px;
+  grid-template-columns: 250px 2fr 250px;
+  grid-column-gap: 40px;
+}
+
+#grid3{
+  width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 60px 250px 100px;
+  grid-template-columns: 250px 2fr 250px;
+  grid-column-gap: 40px;
+}
+
+#grid4{
+  width: 800px;
+  height:auto;
+  display:grid;
+  margin: 0 auto;
+  grid-template-rows: 2fr;
+  grid-template-columns: 2fr 2fr;
+  grid-column-gap: 20px
+}
+#grid4 p {
+  padding-top: 60px
+}
