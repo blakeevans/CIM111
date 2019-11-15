@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Plugins example</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+<style media="screen">
+  img{
+    width:200px
+  }
+
+.char1{
+  color: red;
+}
+
+.char6{
+  color: orange;
+}
+
+
+</style>
+
+
+  </head>
+  <body>
+
+    <a data-fancybox="gallery" href="https://live.staticflickr.com/4140/4805435244_4c781d48ae_b.jpg"><img src="https://live.staticflickr.com/4140/4805435244_4c781d48ae_b.jpg"></a>
+    <a data-fancybox="gallery" href="https://farm1.staticflickr.com/43/82800081_334a35932f.jpg"><img src="https://farm1.staticflickr.com/43/82800081_334a35932f.jpg"></a>
+
+      <h1 class="fancy_title">Hello</h1>
+<!-- Step 1: add javascript file -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<!-- Step 2: add this -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<script type="text/javascript" src="js/jquery.lettering-0.6.1.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(".fancy_title").lettering();
+  });
+</script>
+
+
+  </body>
+</html>

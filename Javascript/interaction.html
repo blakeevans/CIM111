@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style media="screen">
+img{
+  width: 300px;
+}
+
+    </style>
+
+
+
+
+  </head>
+  <body>
+<h1 id="changeBackground">click here to change background color</h1>
+<h2 id="changeOrange">click here to change color to orange</h2>
+
+<ul>
+  <li id="item1" class="item">item 1</li>
+  <li id="item2" class="item">item 2</li>
+  <li id="item3" class="item">item 3</li>
+</ul>
+
+<p id="changeText"></p>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      //All code goes in here
+$("#changeBackground").click(function(){
+$("body").css("background-color", "purple");
+
+});//end of background Click
+
+$("#changeOrange").click(function(){
+
+  $("body").css("background-color", "orange");
+});//end of changeOrange
+
+$("#item1").mouseenter(function(){
+
+  $("#changeText").html("hello there");
+});//end of item1 mouseenter
+
+$("#item2").mouseenter(function(){
+
+  $("#changeText").html("<strong>yooooo</strong>");
+});//end of item2
+
+$("#item3").mouseenter(function(){
+
+$("#changeText").html("<img src='https://live.staticflickr.com/3320/3565287806_b14e2da179.jpg' alt='image1'>")
+});//end of item3
+
+$("item1").mouseleave(function(){
+
+$("#changeText").html("");
+
+});//end of item 1 redundant
+
+$(".item").mouseleave(function(){
+  $("#changeText").html("");
+});//end of total mouseleave
+
+    });//end of document ready
+  </script>
+  </body>
+</html>
